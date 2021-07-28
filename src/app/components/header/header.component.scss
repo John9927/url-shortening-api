@@ -6,7 +6,7 @@
 
 .header {
   display: flex;
-  width: 85%;
+  width: 75%;
   margin: 50px auto;
   align-items: center;
   justify-content: space-between;
@@ -39,7 +39,8 @@
 .login {
   border: 0;
   background-color: transparent;
-  margin: 0 20px;
+  margin: 0 25px;
+  font-size: 15px;
   cursor: pointer;
 
   &:focus {
@@ -49,7 +50,8 @@
 
 .signUp {
   border-radius: 20px;
-  padding: 8px;
+  padding: 8px 25px;
+  font-size: 15px;
   background-color: hsl(180, 66%, 49%);
   border: 0;
   color: white;
