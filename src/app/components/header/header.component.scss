@@ -1,0 +1,67 @@
+.container__header {
+  display: flex;
+  width: 100%;
+  height: 150px;
+}
+
+.header {
+  display: flex;
+  width: 85%;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  height: 27px;
+}
+
+.container__items {
+  display: flex;
+  width: 270px;
+  height: 100%;
+  justify-content: space-between;
+  position: absolute;
+  left: 200px;
+  align-items: center;
+}
+
+.item {
+  text-decoration: none;
+  color: rgb(61, 60, 60);
+
+  &:hover {
+    color: black;
+  }
+}
+
+.login {
+  border: 0;
+  background-color: transparent;
+  margin: 0 20px;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.signUp {
+  border-radius: 20px;
+  padding: 8px;
+  background-color: hsl(180, 66%, 49%);
+  border: 0;
+  color: white;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+
