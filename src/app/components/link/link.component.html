@@ -1,0 +1,13 @@
+<div class="container__link">
+  <div class="link">
+    <form [formGroup]="formLink">
+      <div class="container__item">
+        <input class="input" type="text" formControlName="site" placeholder="Shorten a link here ...">
+        <button class="button__link" (click)="onClickShort(formLink.controls.site.value)">Shorten It!</button>
+      </div>
+      <div *ngIf="formLink.controls.site.invalid && formLink.touched">
+        <span class="error">Please add a link</span>
+      </div>
+    </form>
+  </div>
+</div>
